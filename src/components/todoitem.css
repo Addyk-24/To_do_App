@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.mainlist {
+    font-family: "Orbitron", serif;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    display: grid;
+    /* background-color: rgb(58, 140, 255); */
+    background-color: rgb(216, 252, 252);;
+    box-shadow: 7px 7px #635f5f;
+}
+
+.pinlogo {
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 6rem;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.btn2 {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    padding: 3px;
+    border: 2px solid rgb(166, 166, 166);
+}
+
+.btn3 {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    padding: 3px;
+    border: 2px solid rgb(166, 166, 166);
+}
+.btn2:hover{
+    background-color:rgb(178 181 189) ;
+}
+.btn3:hover{
+    background-color:rgb(178 181 189) ;
+}
