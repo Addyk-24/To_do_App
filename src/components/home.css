@@ -65,9 +65,12 @@
 .mainput{
     display: flex;
     gap: 10px;
+    position: relative;
+    left: 45rem;
 }
 .inpt1{
     padding: 4px;
+    width: 45vw;
 }
 .btn1{
     padding: 4px;

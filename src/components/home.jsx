@@ -52,7 +52,7 @@ const home = () => {
         <div><img className='notify-logo' src={notify} alt="" /></div>
       </nav>
       <main className='main-content'>
-        <div className='left'>
+        {/* <div className='left'>
           <div>namelogo</div>
           <div>
             <ul className='todo_list'>
@@ -62,7 +62,7 @@ const home = () => {
               <li>Help</li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className='right'>
           <div className='mainput'>
             <input className='inpt1' onChange={handleChange} value={todo} name="todo" type="text" placeholder='Add todo item' />
@@ -77,6 +77,7 @@ const home = () => {
 
 
         </div>
+        <div></div>
       </main>
     </div>
   )

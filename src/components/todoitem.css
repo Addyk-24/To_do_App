@@ -16,6 +16,9 @@
     /* background-color: rgb(58, 140, 255); */
     background-color: rgb(216, 252, 252);;
     box-shadow: 7px 7px #635f5f;
+    position: relative;
+    left: 45rem;
+    width: 25vw;
 }
 
 .pinlogo {
